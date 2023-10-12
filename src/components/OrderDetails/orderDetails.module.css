@@ -1,0 +1,39 @@
+.container {
+  padding: 20px 0;
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper > div:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+.detail {
+  flex: 1 0 0;
+  padding: 10px 20px;
+}
+
+.detail:not(:last-child) {
+  border-right: 1px solid right;
+}
+
+.label {
+  color: #8b8888;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.value {
+  font-weight: 600;
+  text-align: left;
+}

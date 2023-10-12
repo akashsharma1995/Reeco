@@ -1,0 +1,6 @@
+.content-wrapper {
+  width: 100%;
+  max-width: var(--max-screen-width);
+  margin: auto;
+  padding-bottom: 50px;
+}

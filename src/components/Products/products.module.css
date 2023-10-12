@@ -1,0 +1,25 @@
+.container {
+  padding: 40px;
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-container {
+  display: flex;
+  justify-content: left;
+}
+
+.cta-btns-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}

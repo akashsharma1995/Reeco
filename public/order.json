@@ -1,0 +1,49 @@
+{
+  "orderId": "32457ABC",
+  "supplier": "East Coast fruits & vegetables",
+  "shippingDate": "2023-10-30T00:00:00.000Z",
+  "total": "48",
+  "currency": "$",
+  "category": "East Coast fruits & vegetables",
+  "department": "300-444-678",
+  "approved": false,
+  "category": "Fruits & Vegetables",
+  "products": [
+    {
+      "id": "01",
+      "name": "Avocado",
+      "price": 10,
+      "currency": "$",
+      "unit": "/each",
+      "brand": "Fresho",
+      "quantity": 2,
+      "total": 20,
+      "status": "",
+      "img": "/avocado.jpg"
+    },
+    {
+      "id": "02",
+      "name": "Apple",
+      "price": 6,
+      "currency": "$",
+      "unit": "/kg",
+      "brand": "Fresho",
+      "quantity": 4,
+      "total": 24,
+      "status": "",
+      "img": "/apple.png"
+    },
+    {
+      "id": "03",
+      "name": "Orange",
+      "price": 4,
+      "currency": "$",
+      "unit": "/500g",
+      "brand": "Fresho",
+      "quantity": 1,
+      "total": 4,
+      "status": "",
+      "img": "/orange.jpg"
+    }
+  ]
+}

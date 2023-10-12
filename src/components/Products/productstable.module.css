@@ -1,0 +1,75 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+.header-row {
+  border: 1px solid lightgray;
+}
+
+.header-datacell {
+  padding: 5px;
+  color: #8b8888;
+  font-weight: 500;
+  text-align: left;
+}
+
+.body-row {
+  border-bottom: 1px solid #bbbabafc;
+}
+
+.body-datacell {
+  padding: 15px 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.cta-btn {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: #b9b9b9;
+}
+
+.status-datacell, .approve-datacell, .reject-datacell, .edit-datacell {
+  background-color: lightgray;
+}
+
+.status-datacell {
+  width: 220px;
+}
+
+.status-badge {
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.approved {
+  background-color: rgb(6 219 6);
+}
+
+.missing-urgent {
+  background-color: rgb(223, 2, 2);
+}
+
+.missing {
+  background-color: orangered;
+}
+
+.disabled {
+  color: rgb(157 157 157);
+  cursor: not-allowed;
+}
+
+.img-cell {
+  width: 80px;
+}
+
+.qty-cell {
+  width: 90px;
+}

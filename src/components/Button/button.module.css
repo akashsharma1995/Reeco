@@ -1,0 +1,30 @@
+.button {
+  border: 1px solid var(--color-primary);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.button:hover {
+  cursor: pointer;
+} 
+
+.solid {
+  color: white;
+  background-color: var(--color-primary);
+}
+
+.outlined {
+  background-color: white;
+  color: var(--color-primary);
+}
+
+.secondary {
+  background-color: transparent;
+  color: black;
+  border: 1px solid transparent;
+}
+
+.secondary:hover {
+  background-color: rgb(225, 225, 225);
+}
